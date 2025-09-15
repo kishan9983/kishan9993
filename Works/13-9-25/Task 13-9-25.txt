@@ -1,0 +1,63 @@
+    #include<stdio.h>
+    #include<conio.h>
+    #include<string.h>
+    #include <stdbool.h>
+    #include<stdlib.h>
+
+    int main()
+    {
+        int choice, m=0, l=0, d=0;
+        
+        int mobile_stock = 100;
+        int laptop_stock = 100;
+        int desktop_stock = 100;
+        
+        while(true)
+        {
+    
+            printf("\n Enter 1 For Mobile");
+            printf("\n Enter 2 For Laptop");
+            printf("\n Enter 3 For Desktop");
+            printf("\n Enter 4 For Exit");
+            printf("\n Enter your choice: ");
+            scanf("%d",&choice);
+            
+            switch(choice)
+            {
+                case 1: 
+                    m++;
+                    mobile_stock--;
+                    break;
+                    
+                case 2: 
+                    l++;
+                    laptop_stock--;
+                    break;
+                    
+                case 3: 
+                    d++;
+                    desktop_stock--;
+                    break;
+                    
+                case 4:
+            
+                    printf("\n\nREMAINING STOCK:");
+                    printf("\nMobiles: %d", mobile_stock);
+                    printf("\nLaptops: %d", laptop_stock);
+                    printf("\nDesktops: %d", desktop_stock);
+                    
+                    printf("\n\nTOTAL PURCHASES:");
+                    printf("\nMobiles bought: %d", m);
+                    printf("\nLaptops bought: %d", l);
+                    printf("\nDesktops bought: %d", d);
+                    printf("\nTotal items purchased: %d", m+l+d);
+                    exit(0);
+                    break;
+                    
+                default:
+                    printf("Invalid choice! Please enter 1-4.");
+                    break;
+            }
+        }
+        return 0;
+    }
