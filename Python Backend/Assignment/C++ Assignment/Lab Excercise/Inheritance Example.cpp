@@ -4,32 +4,33 @@ using namespace std;
 class Person {
 public:
     string name;
-    void getName() {
-        cin >> name;
-    }
 };
 
 class Student : public Person {
 public:
     int roll;
+
     void getData() {
-        getName();
+        cout << "Enter Student Name: ";
+        cin >> name;
+        cout << "Enter Roll Number: ";
         cin >> roll;
     }
-    void show() {
-        cout << "Student: " << name << " " << roll << endl;
+
+    void display() {
+        cout << "Student Name: " << name << ", Roll No: " << roll << endl;
     }
 };
 
 class Teacher : public Person {
 public:
-    float salary;
-    void getDataT() {
-        getName();
-        cin >> salary;
+    void getData() {
+        cout << "Enter Teacher Name: ";
+        cin >> name;
     }
-    void showT() {
-        cout << "Teacher: " << name << " " << salary << endl;
+
+    void display() {
+        cout << "Teacher Name: " << name << endl;
     }
 };
 
@@ -38,10 +39,11 @@ int main() {
     Teacher t;
 
     s.getData();
-    s.show();
+    t.getData();
 
-    t.getDataT();
-    t.showT();
+    cout << "\n---Output Is---\n";
+    s.display();
+    t.display();
 
     return 0;
 }
