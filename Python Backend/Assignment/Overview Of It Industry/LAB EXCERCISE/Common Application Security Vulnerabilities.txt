@@ -1,0 +1,69 @@
+1. SQL Injection (SQLi)
+
+Description:
+Occurs when an attacker manipulates input fields to execute malicious SQL queries on the database.
+
+Impact:
+
+Unauthorized access to data
+
+Data theft or deletion
+
+Possible Solutions:
+
+Use prepared statements / parameterized queries
+
+Validate and sanitize user inputs
+
+Limit database permissions
+
+
+
+2. Cross-Site Scripting (XSS)
+
+Description:
+Occurs when an attacker injects malicious scripts into web pages viewed by other users.
+Impact:
+
+Stealing session cookies
+
+Defacing websites
+
+Redirecting users to malicious sites
+
+Possible Solutions:
+
+Encode output before rendering in HTML
+
+Use Content Security Policy (CSP) headers
+
+Validate and sanitize user inputs
+
+
+
+
+
+3. Cross-Site Request Forgery (CSRF)
+
+Description:
+Occurs when a malicious website tricks a user into performing actions on another site where they are authenticated.
+
+Example:
+
+User is logged into banking site
+
+Attacker sends a hidden form that transfers money without user consent
+
+Impact:
+
+Unauthorized actions performed on behalf of users
+
+Potential data loss or fraud
+
+Possible Solutions:
+
+Use CSRF tokens in forms
+
+Implement same-site cookies
+
+Validate the origin of requests

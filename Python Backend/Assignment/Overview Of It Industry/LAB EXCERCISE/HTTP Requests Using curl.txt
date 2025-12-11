@@ -1,0 +1,28 @@
+1. HTTP Requests Using curl
+
+Description:
+curl is a command-line tool for transferring data using various protocols, including HTTP.
+
+Commands & Examples
+
+a) GET Request
+Fetch the contents of a webpage:
+
+curl http://example.com
+
+
+b) GET Request with headers
+Display response headers:
+
+curl -I http://example.com
+
+
+c) POST Request
+Send data to a server:
+
+curl -X POST -d "username=test&password=123" http://example.com/login
+
+
+d) Save Response to a File
+
+curl http://example.com -o response.html

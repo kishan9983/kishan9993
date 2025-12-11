@@ -1,0 +1,20 @@
+2. FTP Requests Using curl
+
+Description:
+FTP (File Transfer Protocol) is used to transfer files between client and server. curl can simulate FTP commands as well.
+
+Commands & Examples
+
+a) Download a File from FTP Server
+
+curl -O ftp://ftp.example.com/sample.txt
+
+
+b) Upload a File to FTP Server
+
+curl -T localfile.txt ftp://ftp.example.com/ --user username:password
+
+
+c) List Files on FTP Server
+
+curl ftp://ftp.example.com/ --user username:password

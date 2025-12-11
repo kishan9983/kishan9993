@@ -1,0 +1,35 @@
+System Software
+
+Windows 10/11 – Operating system for PC
+
+macOS – Operating system for Mac
+
+Linux (Ubuntu) – Open-source operating system
+
+Android – Mobile operating system
+
+Application Software
+
+Microsoft Word – Used for creating documents
+
+Microsoft Excel – Used for spreadsheets and calculations
+
+Google Chrome – Web browsing
+
+VLC Media Player – Playing audio and video files
+
+Adobe Photoshop – Editing images
+
+Visual Studio Code – Writing and running code
+
+Utility Software
+
+WinRAR / 7-Zip – Compressing and extracting files
+
+CCleaner – Cleaning and optimizing the system
+
+Antivirus (e.g., Avast, Windows Defender) – Protecting against viruses and malware
+
+Disk Defragmenter – Optimizing hard drive performance
+
+Backup software (e.g., Acronis True Image) – Backing up important data

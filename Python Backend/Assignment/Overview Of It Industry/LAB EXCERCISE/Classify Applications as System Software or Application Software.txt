@@ -1,0 +1,9 @@
+1.Windows 10 / 11 is system software because it manages the computer hardware and provides an environment for running other programs.
+
+2.Google Chrome is application software because it is used to browse the internet and access web services.
+
+3.Microsoft Word is application software because it allows the user to create, edit, and format documents.
+
+4.VLC Media Player is application software because it is used to play audio and video files.
+
+5.Antivirus Software (e.g., Windows Defender) is system software because it protects the system by detecting and removing malware, helping maintain the proper functioning of the computer.

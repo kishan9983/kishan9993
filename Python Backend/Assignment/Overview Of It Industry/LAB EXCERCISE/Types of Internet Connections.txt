@@ -1,0 +1,106 @@
+1. Broadband (DSL / Cable)
+
+Description:
+Broadband is a high-speed internet connection that is always on. It includes DSL (Digital Subscriber Line) and cable internet.
+
+Pros:
+
+Always connected (no dial-up needed)
+
+Relatively fast for general usage
+
+Widely available in urban areas
+
+Can support multiple devices
+
+Cons:
+
+Speed can be affected by network congestion
+
+Limited coverage in rural areas
+
+Cable connections may experience downtime during maintenance
+
+2. Fiber Optic Internet
+
+Description:
+Fiber uses light signals through glass fibers to deliver extremely high-speed internet.
+
+Pros:
+
+Very high speeds (up to 1 Gbps or more)
+
+Reliable and stable connection
+
+Low latency, great for gaming and video calls
+
+Supports high data usage
+
+Cons:
+
+Expensive installation and monthly cost
+
+Limited availability (mostly urban areas)
+
+Installation may require professional setup
+
+3. Satellite Internet
+
+Description:
+Internet is delivered via satellites orbiting the Earth. Suitable for remote areas.
+
+Pros:
+
+Available almost anywhere, even in remote regions
+
+Good for areas without wired infrastructure
+
+Cons:
+
+High latency (slow response time)
+
+Weather can affect connection quality
+
+Data caps may apply, limiting usage
+
+Expensive compared to other options
+
+4. Mobile / Cellular Internet (3G, 4G, 5G)
+
+Description:
+Internet provided via cellular networks to smartphones, dongles, or mobile hotspots.
+
+Pros:
+
+Wireless and portable
+
+High-speed options available (4G/5G)
+
+Easy to set up
+
+Cons:
+
+Speed depends on network coverage and congestion
+
+Data limits may apply
+
+Signal can be weak in rural or indoor areas
+
+5. Dial-Up Internet (Older Technology)
+
+Description:
+Uses a telephone line to connect to the internet. Very slow by today’s standards.
+
+Pros:
+
+Very cheap
+
+Can be used anywhere with a phone line
+
+Cons:
+
+Extremely slow speeds (56 kbps max)
+
+Cannot use the phone line while online
+
+Outdated and rarely used today

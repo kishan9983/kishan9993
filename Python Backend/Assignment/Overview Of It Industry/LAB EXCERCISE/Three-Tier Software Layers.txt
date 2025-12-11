@@ -1,0 +1,77 @@
+1. Presentation Layer (User Interface Layer)
+
+Functionality:
+
+The presentation layer interacts with the user.
+
+It displays the user interface (UI) of the library system on a web browser or mobile app.
+
+Users can:
+
+Search for books
+
+View available books
+
+Borrow or return books
+
+Update account information
+
+Technologies:
+
+HTML, CSS, JavaScript
+
+Frontend frameworks (React, Angular)
+
+Example:
+
+A user enters “Data Structures” in the search bar → the presentation layer collects this input and sends it to the business logic layer.
+
+2. Business Logic Layer (Application Layer)
+
+Functionality:
+
+The business logic layer processes user requests and enforces rules.
+
+It handles:
+
+Validating user input (e.g., check if a book is available)
+
+Calculating overdue fines
+
+Managing borrowing limits
+
+Processing transactions
+
+Technologies:
+
+Server-side languages: PHP, Python (Django/Flask), Java (Spring), Node.js
+
+Example:
+
+When a user requests to borrow a book, the business logic checks if the book is available, verifies the user’s borrowing limit, and then updates the database.
+
+3. Data Access Layer (Database Layer)
+
+Functionality:
+
+The data access layer manages storage and retrieval of data.
+
+Stores information like:
+
+Book details (title, author, availability)
+
+User accounts
+
+Borrowing history
+
+Handles queries, inserts, updates, and deletes.
+
+Technologies:
+
+Databases: MySQL, PostgreSQL, MongoDB
+
+SQL queries or ORM (Object-Relational Mapping) tools
+
+Example:
+
+The business logic requests the availability of a book → the data layer queries the database → returns the result to the business layer → displayed to the user by the presentation layer.
